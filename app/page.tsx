@@ -16,7 +16,7 @@ const PRICING_DATA = {
   'MX': { price: 1999, currency: 'MXN', symbol: 'MX$', yearlyPrice: 19990 },
 } as const;
 
-const DEFAULT_PRICING = { price: 99, currency: 'USD', symbol: '$', yearlyPrice: 990 };
+const DEFAULT_PRICING = { price: 100, currency: 'USD', symbol: '$', yearlyPrice: 1000 };
 
 const features = [
   { icon: '🚀', title: 'Unlimited API Calls', description: 'No rate limits, scale freely' },
