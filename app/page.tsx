@@ -220,8 +220,5 @@ export default async function PricingPage() {
   );
 }
 
-// Force dynamic rendering (no static generation)
-export const dynamic = 'force-dynamic';
-
 // Cache this page per country for 1 hour
 export const revalidate = 3600;
